@@ -1,0 +1,4 @@
+<IfModule mod_rewrite.c>  
+RewriteEngine On   
+RewriteRule ^(.*)_(.*)-(.*)\.html$ index.php?tp=$1&action=$2&g=$3 [NC]   
+</IfModule>
